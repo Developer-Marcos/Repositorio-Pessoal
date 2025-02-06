@@ -1,0 +1,366 @@
+header{
+    background-color: rgb(48, 48, 48);
+    margin: 0px;
+    padding: 10px 10px;
+    font-family: 'earwig_factoryregular';
+    position: absolute;
+    top: 220px;
+    right: 0px;
+    width: 1200px;
+    box-shadow: inset 0 0 5px rgb(26, 26, 26);
+
+}
+
+  #naviti{
+    font-size: xx-large;
+    left: 20px;
+  }
+
+  @font-face {
+    font-family: 'got_heroinregular';
+    src: url('got_heroin-webfont.woff2') format('woff2'),
+         url('got_heroin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'earwig_factoryregular';
+    src: url('earwig_factory_rg-webfont.woff2') format('woff2'),
+         url('earwig_factory_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'mold_paparegular';
+    font-size: x-large;
+    color: aliceblue;
+    background-color: rgb(80, 80, 80);
+    border: solid;
+    border-color: rgb(42, 42, 42);
+    border-radius: 3px;
+    padding: 5px;
+    transition: transform .2s;
+    position: absolute;
+    top: 228px;
+}
+
+
+
+#link1{
+    left: 620px;
+    box-shadow: inset 0 0 5px rgb(26, 26, 26);
+}
+
+#link2{
+    left: 745px;
+    box-shadow: inset 0 0 5px rgb(26, 26, 26);
+}
+
+#link1:hover{
+    background-color: rgb(158, 218, 251);
+    border-color: rgb(39, 118, 157);
+    box-shadow: inset 0 0 5px rgb(26, 26, 26);
+    color: rgb(39, 118, 157);
+}
+
+#link2:hover{
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(255, 217, 0);
+    color:  rgb(255, 237, 138);
+}
+
+#link3:hover{
+    background-color: rgb(44, 149, 224);
+    border-color: rgb(255, 255, 255);
+    box-shadow: inset 0 0 5px rgb(26, 26, 26);
+    color: rgb(255, 255, 255);
+}
+
+#link4:hover{
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 30px rgb(119, 3, 3);
+    color: rgb(255, 255, 255);
+}
+
+#link5:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 30px rgb(119, 3, 3);
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+@font-face {
+    font-family: 'mold_paparegular';
+    src: url('mold_papa-webfont.woff2') format('woff2'),
+         url('mold_papa-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+#back1{
+    z-index: 5;
+    font-size: small;
+    top: 1025px;
+    left: 920px;
+    font-family: 'teenitalic';
+    color: black;
+    background-color: rgb(158, 218, 251);
+    border-radius: 5px;
+    border-color: rgb(39, 118, 157);
+    box-shadow: inset 0 0 5px rgb(69, 159, 197);
+}
+
+#back2{
+    z-index: 5;
+    font-size: small;
+    top: 1780px;
+    left: 25px;
+    font-family: 'teenitalic';
+    background-color:  rgba(63, 63, 63, 0.572);
+    border-radius: 5px;
+    border-color: rgb(255, 217, 0);
+    color:  rgb(255, 237, 138);
+}
+
+#Hunters{
+    background-image: linear-gradient(to top, rgb(44, 149, 224), rgb(53, 74, 159));
+    height: 970px;
+    width: 20px;
+    position: absolute;
+    width: 1213px;
+    left: 0px;
+    top: 1850px;
+}
+
+#subtitulo5{
+    font-family: 'teenitalic';
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+#persons{
+    background-color: rgb(57, 99, 135);
+    border-radius: 3px;
+    z-index: 5;
+    position: absolute;
+    top: 1900px;
+    right: 700px;
+    left: 20px;
+    margin-left: 75px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: solid;
+    box-shadow: inset 0 0 5px rgb(0, 0, 0);
+
+}
+
+#power{
+    z-index: 6;
+    position: absolute;
+    top:2215px;
+    right: 110px;
+    background-color: rgb(57, 99, 135);
+    border: solid;
+    box-shadow: inset 0 0 5px rgb(0, 0, 0);
+    padding: 10px;
+    left: 600px;
+}
+
+#subtitulo6{
+    font-family: 'teenitalic';
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+#back3{
+    z-index: 5;
+    font-size: small;
+    top: 2749px;
+    left: 530px;
+    font-family: 'teenitalic';
+    color: black;
+    background-color: rgb(57, 99, 135);
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    box-shadow: inset 0 0 5px rgb(0, 0, 0);
+}
+
+#link3{
+    left: 845px;
+    box-shadow: inset 0 0 5px rgb(26, 26, 26);
+}
+
+#skills{
+    position: absolute;
+    top: 2500px;
+    left: 35px;
+    margin-right: 700px;
+    background-color: rgb(57, 99, 135);
+    padding: 10px;
+    border: solid;
+    box-shadow: inset 0 0 5px rgb(0, 0, 0);
+}
+
+#inferno{
+    background-color: black;
+    box-shadow: inset 0px 0px 100px rgb(58, 0, 0);
+    position: absolute;
+    top: 2820px;
+    height: 950px;
+    width: 1213px;
+    left: 0px;
+}
+
+#night{
+    position: absolute;
+    top: 3000px;
+    margin-right: 750px;
+    left: 60px;
+    font-size: large;
+}
+
+#subtitulo7{
+    font-family: 'got_heroinregular';
+    position: absolute;
+    top: 2870px;
+    left: 65px;
+    font-size: 80px;
+    margin-bottom: 12px;
+}
+
+#class{
+    z-index: 6;
+    position: absolute;
+    top: 3220px;
+    left: 35px;
+    margin-right: 700px;
+}
+
+#line3{
+    z-index: 7;
+    height: 20px;
+    width: 1213px;
+    position: absolute;
+    left: 0px;
+    top:2810px;
+    background-color: rgb(11, 3, 3);
+    box-shadow: inset 0px 0px 30px rgb(119, 3, 3);
+}
+
+#link4{
+    position: absolute;
+    left: 935px;
+    box-shadow: inset 0 0 5px rgb(26, 26, 26);
+}
+
+
+#back4{
+    z-index: 5;
+    font-size: small;
+    top: 3710px;
+    left: 65px;
+    font-family: 'teenitalic';
+    color: black;
+    background-color: rgb(56, 10, 10);
+    border-radius: 5px;
+    border-color: rgb(97, 97, 97);
+    color: rgb(255, 255, 255);
+    box-shadow: inset 0 0 5px rgb(0, 0, 0);
+}
+
+#line4{
+    z-index: 7;
+    height: 20px;
+    width: 1213px;
+    position: absolute;
+    left: 0px;
+    top:3770px;
+    background-color: rgb(11, 3, 3);
+    box-shadow: inset 0px 0px 30px rgb(119, 3, 3);
+}
+
+#time{
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px 0px 100px rgb(58, 0, 0);
+    position: absolute;
+    top: 3780px;
+    height: 650px;
+    width: 1213px;
+    left: 0px;
+}
+
+#subtitulo8{
+    font-family: 'earwig_factoryregular';
+    position: absolute;
+    top: 3870px;
+    left: 705px;
+    font-size: 80px;
+    margin-bottom: 12px;
+    color: black;
+}
+
+#Tinfo{
+    position: absolute;
+    margin-right: 70px;
+    top: 4000px;
+    left: 725px;
+    color: black;
+
+}
+
+#link5{
+    position: absolute;
+    left: 1050px;
+    box-shadow: inset 0 0 5px rgb(26, 26, 26);
+}
+
+#ultlinha{
+    z-index: 7;
+    height: 20px;
+    width: 1213px;
+    position: absolute;
+    left: 0px;
+    top:4430px;
+    background-color: rgb(11, 3, 3);
+    box-shadow: inset 0px 0px 30px rgb(119, 3, 3);
+}
+
+#rodape{
+    z-index: 8;
+    width: 1213px;
+    position: absolute;
+    left: 0px;
+    top:4450px;
+    background-color: rgb(11, 3, 3);
+    text-align: center;
+}
+
+#back5{
+    z-index: 10;
+    font-size: small;
+    top: 4390px;
+    left: 1135px;
+    font-family: 'teenitalic';
+    color: black;
+    background-color: rgb(215, 205, 205);
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 5px rgb(56, 10, 10);
+}
+

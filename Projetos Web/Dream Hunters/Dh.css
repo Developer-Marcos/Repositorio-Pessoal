@@ -1,0 +1,240 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: '_ronysiswadi_16_.';
+    font-size: 15px;
+    color: aliceblue;
+}
+
+
+  
+::-webkit-scrollbar{
+    background-color: rgb(72, 72, 72);
+    box-shadow: inset 0 0 5px rgb(26, 26, 26); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #9c9c9c;
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background-color: #e8e8e8;
+    border-radius: 3px;
+  }
+
+
+
+#preto{
+  position: absolute;
+  bottom: 300px;
+  left: 0px;
+  right: 10px;
+  height: 500px;
+  width: 1213px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.811), rgb(0, 0, 0));
+  z-index: -1;
+}
+
+@font-face {
+    font-family: 'fanzineregular';
+    src: url('fanzine.regular-webfont.woff2') format('woff2'),
+         url('fanzine_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+#titulo{
+    position: absolute;
+    left: 19%;
+    top: 50px;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-family: 'fanzineregular';
+    font-size: 100px;
+    animation-name: flutu;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes flutu {
+    0% {
+        position: absolute;
+        top: 50px;
+    }
+    50% {
+        position: absolute;
+        top: 65px;
+    }
+    100% {
+        position: absolute;
+        top: 50px;
+    }
+}
+
+.subtitulo{
+    font-family: 'teenitalic';
+    font-size: 20px;
+    margin-bottom: -20px;
+}
+
+@font-face {
+    font-family: 'teenitalic';
+    src: url('teen.italic-webfont.woff2') format('woff2'),
+         url('teen.italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '_ronysiswadi_16_.';
+    src: url('ronysiswadi16-ead2j-webfont.woff2') format('woff2'),
+         url('ronysiswadi16-ead2j-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#Aprese{
+    background-color: rgba(0, 0, 0, 0.494);
+    border: solid;
+    border-radius: 5px;
+    border-color: black;
+    position: absolute;
+    top: 380px;
+    left: 40px;
+    padding: 8px;
+    margin-right: 550px;
+    margin-bottom: 50px;
+    box-shadow: inset 0 0 5px rgb(26, 26, 26);
+}
+
+.place{
+    background-color: rgb(158, 218, 251);
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(39, 118, 157);
+    position: absolute;
+    top: 800px;
+    left: 500px;
+    padding: 8px;
+    margin-right: 50px;
+    margin-left: 75px;
+    color: black;
+    box-shadow: inset 0 0 5px rgb(69, 159, 197);
+}
+#subtitulo2{
+    font-family: 'teenitalic';
+    font-size: 20px;
+    margin-bottom: -8px;
+    text-align: right;
+}
+
+.line{
+    background-image: linear-gradient(to top, rgba(191, 255, 250, 0.604), rgb(112, 198, 255));
+    position: absolute;
+    top: 350px;
+    left: 0px;
+    z-index: -1;
+    width: 1213px;
+    height: 1200px;
+}
+.line2{
+    background-image: linear-gradient(to bottom, rgba(191, 255, 250, 0), rgb(112, 198, 255));
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    z-index: 1;
+    width: 1213px;
+    height: 50px;
+}
+
+.civi{
+    background-color: rgb(158, 218, 251);
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(39, 118, 157);
+    position: absolute;
+    top: 1025px;
+    left: 500px;
+    padding: 8px;
+    margin-right: 300px;
+    margin-left: 75px;
+    color: black;
+    box-shadow: inset 0 0 5px rgb(69, 159, 197);
+}
+
+.subtitulo3{
+    font-family: 'teenitalic';
+    font-size: 20px;
+    margin-bottom: 9px;
+    text-align: center;
+}
+
+#navega{
+    z-index: 2;
+    height: 70px;
+    width: 1213px;
+    position: absolute;
+    left: 0px;
+    top:282px;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(8, 24, 124, 0.742), rgb(112, 198, 255));
+}
+
+#golden{
+    z-index: 3;
+    height: 5px;
+    width: 1213px;
+    position: absolute;
+    left: 0px;
+    top:1550px;
+    background-color: rgb(255, 217, 0);
+    box-shadow: inset 0 0 2px rgb(26, 26, 26);
+}
+
+#economy{
+    position: absolute;
+    top: 1570px;
+    left: -30px;
+    padding: 8px;
+    margin-right: 650px;
+    margin-left: 50px;
+    color:  rgb(255, 237, 138);
+}
+
+.minititulo{
+    font-size: small;
+    margin-bottom: -20px;
+}
+
+#golden2{
+    z-index: 3;
+    height: 5px;
+    width: 1213px;
+    position: absolute;
+    left: 0px;
+    top:1850px;
+    background-color: rgb(255, 217, 0);
+    box-shadow: inset 0 0 2px rgb(26, 26, 26);
+}
+
+.preto2{
+    z-index: -1;
+    height: 300px;
+    width: 1213px;
+    position: absolute;
+    left: 0px;
+    top:1550px;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(35, 35, 35));
+}
+
+.subtitulo4{
+    font-family: 'teenitalic';
+    font-size: 20px;
+    margin-bottom: 0px;
+    text-align: left;
+}

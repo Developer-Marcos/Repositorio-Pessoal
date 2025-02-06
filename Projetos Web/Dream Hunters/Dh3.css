@@ -1,0 +1,235 @@
+.nature{
+    height: 350px;
+    width: 270px;
+    top: 395px;
+    left: 800px; 
+    transition: transform .6s;  
+    box-shadow: 0 0 5px 10px rgb(0, 0, 0);
+    
+}
+
+.nature:hover{
+    transform: scale(1.2);
+    border-radius: 25px; 
+}
+
+
+
+img{
+    position: absolute;
+    border-radius: 100px;
+    z-index: 10;
+}
+
+.city{
+    height: 700px;
+    width: 490px;
+    top: 750px;
+    left: 40px;
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 10px rgb(0, 0, 0);
+}
+
+.tri{
+    position: absolute;
+    height: 250px;
+    top: 1130px;
+    left: 950px;
+    background-size: 200px;
+    animation-name: flutu2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flutu2 {
+    0% {
+        position: absolute;
+        top: 1090px;
+    }
+    50% {
+        position: absolute;
+        top: 1290px;
+    }
+    100% {
+        position: absolute;
+        top: 1090px;
+    }
+}
+
+.inside{
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(2, 7, 44);
+    box-shadow: 0 0 5px 10px rgb(1, 7, 50);
+}
+
+.minimini1{
+    font-size: larger;
+    font-family: 'teenitalic'
+}
+
+#monst1{
+    position: absolute;
+    top: 2800px;
+    left: 770px;
+    height: 400px;
+}
+
+#monst2{
+    position: absolute;
+    top: 3520px;
+    left: 980px;
+    height: 190px;
+}
+
+#monst3{
+    position: absolute;
+    top: 2870px;
+    left: 470px;
+    height: 300px;
+    transform: scaleX(-1);
+}
+
+#monst4{
+    position: absolute;
+    top: 3490px;
+    left: 580px;
+    height: 300px;
+    transform: scaleX(-1);
+}
+
+#monst5{
+    position: absolute;
+    top: 3090px;
+    left: 680px;
+    height: 430px;
+    transform: scaleX(-1);
+}
+
+#Dreams{
+    z-index: 8;
+    top: 1590px;
+    left: 850px;
+    height: 230px;
+    width: 230px;
+    border-radius: 75%;
+    box-shadow: 0 0 5px 10px rgb(0, 0, 0);
+}
+
+.tempo{
+    background-color: black;
+    height: 430px;
+    width: 3px;
+    position: absolute;
+    top: 3900px;
+    left: 340px;
+}
+
+.tempo3{
+    position: absolute;
+    top: 3880px;
+    left: 329px;
+    color: black;
+    font-family: 'teenitalic'
+}
+
+.tempo2{
+    position: absolute;
+    top: 4330px;
+    left: 320px;
+    color: black;
+    font-family: 'teenitalic'
+}
+
+.ln1{
+    position: absolute;
+    top: 4290px;
+    left: 320px;
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    color: black;
+}
+
+.Ln1_txt{
+    color: #000;
+    position: absolute;
+    top: 4280px;
+    left: 265px;
+}
+
+.ln2{
+    position: absolute;
+    top: 4200px;
+    left: 320px;
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    color: black;
+}
+
+.Ln2_txt{
+    color: #000;
+    position: absolute;
+    top: 4193px;
+    left: 260px;
+}
+
+.ln3{
+    position: absolute;
+    top: 4093px;
+    left: 343px;
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    color: black;
+}
+
+.Ln3_txt{
+    color: #000;
+    position: absolute;
+    top: 4085px;
+    left: 368px;
+}
+
+.Ln2_txt{
+    color: #000;
+    position: absolute;
+    top: 4193px;
+    left: 260px;
+}
+
+.ln4{
+    position: absolute;
+    top: 4000px;
+    left: 320px;
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    color: black;
+}
+
+.Ln4_txt{
+    color: #000;
+    position: absolute;
+    top: 3994px;
+    left: 255px;
+}
+
+.ln5{
+    position: absolute;
+    top: 3925px;
+    left: 343px;
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    color: black;
+}
+
+.Ln5_txt{
+    color: #000;
+    position: absolute;
+    top: 3918px;
+    left: 368px;
+}
