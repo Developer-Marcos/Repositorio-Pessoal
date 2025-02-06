@@ -1,4 +1,4 @@
-Jogo 2D feito na plataforma "Scratch"
+Jogo 2D feito na plataforma "Scratch" para melhorar minha lógica de programação.
 
 - importe o arquivo "Geometry Cat Survival.sb3" dentro da plataforma
 
