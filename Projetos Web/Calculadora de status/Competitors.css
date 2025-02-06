@@ -1,0 +1,197 @@
+body{
+    background-image: linear-gradient(to bottom right,#121C84, #0E1F40);
+    height:565px;
+}
+
+#titulo{
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#menu{
+    background-color: #01071087;
+    border: solid;
+    border-color: #030e20;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #0000003d;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#opc1{
+    margin-bottom: 25px;
+}
+
+#opc2{
+    margin-top: 25px;
+}
+
+#Gerar{
+    margin-top: 10px;
+    text-align: center;
+    padding-top:5px ;
+    padding-left: 25px;
+    padding-bottom: 5px ;
+    padding-right: 25px;
+    color: #ffffff;
+    background-color: #062557;
+    border: solid;
+    font-size: large;
+}
+
+.text-align_center{
+    text-align: center;
+}
+
+#male{
+    background-image: linear-gradient(to bottom right,#121C84, #092a6e);
+}
+
+#gender{
+    border: solid;
+    border-width: 1px;
+    border-color: #f7f7f7;
+}
+
+#Gerar:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#atributos{
+    background-color: #01071087;
+    border: solid;
+    border-color: #030e20;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    padding: 10px;
+    padding-right: 315px;
+    box-shadow: 10px 10px 5px #0000003d;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo2{
+    font-size: x-large;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#status{
+    color: #ffffff;
+    margin-right: -300px;
+}
+
+.sub{
+    margin-bottom: 5px;
+    font-size: larger;
+}
+
+#Numbers{
+    background-color: #01071087;
+    border: solid;
+    border-color: #030e20;
+    position: absolute;
+    top: 57%;
+    left: 3%;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #0000003d;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.sub2{
+    margin-bottom: 5px;
+    font-size: x-large;
+}
+
+#Numbers2{
+    background-color: #01071087;
+    border: solid;
+    border-color: #030e20;
+    position: absolute;
+    top: 73%;
+    left: 20%;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #0000003d;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#awful{
+    color: rgb(255, 90, 90);
+}
+
+#Avarenge{
+    color: rgb(255, 228, 90);
+}
+
+#Good{
+    color: rgb(90, 255, 90);
+}
+
+#Excellent{
+    color: rgb(90, 255, 239);
+}
+
+#Ascended{
+    color: rgb(90, 170, 255);
+}
+
+#geracao{
+    background-color: #01071087;
+    border: solid;
+    border-color: #030e20;
+    position: absolute;
+    top: 5%;
+    left: 72%;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #0000003d;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+#Name_txt{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.atribu{
+    font-size: large;
+}
+
+#Name_id{
+    font-size: x-large;
+}
+
+.n_font{
+    font-family: monospace;
+    font-size: large;
+}
+
+#gender_g{
+    font-size: 18px;
+}
+
+#gender_txt{
+    font-size: 18px;
+    font-family: monospace;
+}
+
+#opts{
+    font-family: monospace;
+    font-size: larger;
+}
