@@ -1,0 +1,27 @@
+{% extends "template.html" %}
+{% block conteudo %}
+
+
+    <div class="container">
+        <h2>Bem-Vindo(a)</h2>
+
+        <form method="post" action="{{ url_for('autenticar') }}">
+            E-MAIL DA SUA CONTA:<br>
+            <input type="email" name="email" placeholder="seu@email.com" required/>
+            
+            <br>
+
+            SENHA DE ACESSO:<br>
+            <input type="password" name="senha" placeholder="●●●●●●●" required/>
+
+            <p><button class="btn btn-primary" type="submit">Login</button></p>
+        </form>
+
+        <form action="{{ url_for('criar') }}">
+            Não possui uma conta?<br>
+            <button class="btn btn-primary" type="submit">Criar conta</button>
+        </form>
+    </div>
+
+
+{% endblock %}

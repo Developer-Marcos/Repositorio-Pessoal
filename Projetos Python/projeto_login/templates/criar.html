@@ -1,0 +1,28 @@
+{% extends "template.html" %}
+{% block conteudo %}
+
+<div class="container">
+    <h2>Crie seu novo usuário</h2>
+        <div class="container">
+            <form method="post" action="{{ url_for('criar_conta') }}">
+                NOME DO USUÁRIO:<br>
+                <input type="text" name="nome" placeholder="Seu_Nome" required>
+
+                <br>
+
+                E-MAIL DO USUÁRIO:<br>
+                <input type="email" name="email" placeholder="seu@email.com" required>
+
+                <br>
+
+                SENHA DE ACESSO DO USUÁRIO:<br>
+                <input type="password" name="senha" placeholder="●●●●●●●" required/>
+
+                <p><button class="btn btn-primary" type="submit">Criar conta</button></p>
+            </form>
+        </div>
+</div>  
+
+
+
+{% endblock %}

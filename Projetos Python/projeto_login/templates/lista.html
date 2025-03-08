@@ -1,0 +1,21 @@
+{% extends "template.html" %}
+{% block conteudo %}
+    
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>NOME DO USUÁRIO</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for usuario in users %}
+                <tr>
+                    <td>{{ usuario.nome }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <form action=" {{ url_for('logout') }} "><button class="btn btn-primary" type="submit">Sair</button> </form>
+
+{% endblock %}
